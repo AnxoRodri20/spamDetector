@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "spamdetector"
+version = "0.1.0"
+description = ""
+authors = ["AnxoRodri20 <AnxoRodri20@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.2"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+nltk = "^3.9.1"
+joblib = "^1.4.2"
+
+[tool.poetry.scripts]
+start = "python3 code/model.py"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
