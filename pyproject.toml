@@ -13,8 +13,6 @@ scikit-learn = "^1.6.1"
 nltk = "^3.9.1"
 joblib = "^1.4.2"
 
-[tool.poetry.scripts]
-start = "python3 code/model.py"
 
 [build-system]
 requires = ["poetry-core"]
